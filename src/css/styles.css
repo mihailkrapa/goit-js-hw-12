@@ -22,24 +22,19 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
-  background: rgb(73, 105, 102);
   background: linear-gradient(
     90deg,
-    rgba(73, 105, 102, 1) 6%,
-    rgba(153, 33, 33, 1) 22%,
-    rgba(122, 42, 41, 1) 39%,
-    rgba(12, 110, 77, 1) 62%,
-    rgba(83, 171, 157, 1) 90%
+    rgb(38, 2, 199) 50%,
+    rgb(231, 238, 12) 50%
   );
 }
 
 /* form styling */
 .btn {
-  border-radius: 8px;
   padding: 8px 16px;
   width: 91px;
   height: 40px;
-  background: #4eb08a;
+  background: rgb(0, 0, 0) 39%;
   border: none;
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
@@ -50,19 +45,18 @@
 }
 
 .btn:hover {
-  background: #98d1be;
+  background: rgb(44, 43, 43) 22%;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
   transform: translate(+5px, +5px) scale(1.05);
   transition: transform 500ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .load-more-btn {
-  border-radius: 8px;
   padding: 8px 16px;
   width: 125px;
   height: 40px;
   border: none;
-  background: #4eb08a;
+  background: #000000;
   border: none;
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
@@ -78,7 +72,7 @@
 }
 
 .load-more-btn:hover {
-  background: #98d1be;
+  background: rgb(44, 43, 43) 22%;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
   transform: translate(+5px, +5px) scale(1.05);
   transition: transform 500ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -95,7 +89,6 @@
 
 .input-search {
   border: 1px solid #808080;
-  border-radius: 4px;
   width: 252px;
   height: 36px;
   background-color: #b7b7b7;
@@ -113,7 +106,6 @@
 }
 
 .input-search:hover {
-  border: 2px solid #4eb08a;
   background: #d9c7c7;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
   transform: translate(+5px, +5px) scale(1.05);
@@ -125,7 +117,6 @@
   gap: 20px;
   border: 2px solid #aca3a3;
   overflow: hidden;
-  border-radius: 10px;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
   backdrop-filter: invert(20%);
 }
@@ -136,15 +127,10 @@
   cursor: pointer;
   box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
   backdrop-filter: invert(20%);
-  border: 2px solid #4eb08a;
-  background: rgb(73, 105, 102);
   background: linear-gradient(
     90deg,
-    rgba(73, 105, 102, 1) 6%,
-    rgba(153, 33, 33, 1) 22%,
-    rgba(122, 42, 41, 1) 39%,
-    rgba(12, 110, 77, 1) 62%,
-    rgba(83, 171, 157, 1) 90%
+    rgb(38, 2, 199) 50%,
+    rgb(231, 238, 12) 50%
   );
 }
 
@@ -163,7 +149,7 @@
   font-size: 12px;
   line-height: 1.33333;
   letter-spacing: 0.04em;
-  color: rgb(220, 75, 145);
+  color: rgb(0, 0, 0);
   gap: 20px;
   justify-content: center;
   align-items: center;
@@ -182,7 +168,7 @@
   font-size: 12px;
   line-height: 2;
   letter-spacing: 0.04em;
-  color: rgb(107, 236, 223);
+  color: rgb(0, 0, 0);
 }
 
 .text-center {
