@@ -17,8 +17,6 @@ let userSearch;
 let imageHeight;
 const perPage = 15;
 
-imageList.innerHTML = '';
-
 const loadMoreImages = async () => {
   showLoader();
 
@@ -42,6 +40,8 @@ const loadMoreImages = async () => {
 
 const handleFormSubmit = async (e) => {
   e.preventDefault();
+
+  imageList.innerHTML = '';
 
   page = 1;
 
